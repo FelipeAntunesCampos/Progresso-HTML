@@ -10,3 +10,25 @@
     background-color: rgb(23, 42, 212);
     margin: 40px auto 20px;
 }
+
+.flex-container { /* Cria uma caixa na qual vai armazenar os quadradinhos*/
+    width: 90%;
+    height: 400px;
+    background-color: #ffffff; /* Cinza claro */
+    margin: 0 auto 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.flex-item { /* Cria os quadradinhos e alinha eles dentro da caixa*/
+    width: 120px;
+    height: 120px;
+    background-color: #28f70c; /* Cinza escuro */
+    margin: 6px;
+}
+
+.cor{ /* Adiciona outra cor para o quadradinho*/
+    background-color: purple;
+}
