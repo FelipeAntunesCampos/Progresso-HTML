@@ -34,9 +34,10 @@
 }
 
 .circulo-central { /* Cria uma caixa na qual vai armazenar os circulos*/
-    width: 90%;
+    width: 240px;
     height: 600px;
-    background-color: #ffffff; /* Cinza claro */
+    background-color: #070707; /* Cinza claro */
+    border-radius: 50px;
     margin: 0 auto 20px;
     display: flex;
     justify-content: center;
@@ -49,14 +50,18 @@
     width: 120px;
     height: 120px;
     background-color: #f11b0c; /* Cinza escuro */
+    border: 2px solid gray;
     border-radius: 100px;
     margin: 6px;
+    box-shadow: 0px 0px 20px #f11b0c;
 }
 
 .cor1 {
     background-color: yellow;
+    box-shadow: 0px 0px 20px yellow;
 }
 
 .cor2{
     background-color: #28f70c;
+    box-shadow: 0px 0px 20px #28f70c;
 }
