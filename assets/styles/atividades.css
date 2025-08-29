@@ -32,3 +32,31 @@
 .cor{ /* Adiciona outra cor para o quadradinho*/
     background-color: purple;
 }
+
+.circulo-central { /* Cria uma caixa na qual vai armazenar os circulos*/
+    width: 90%;
+    height: 600px;
+    background-color: #ffffff; /* Cinza claro */
+    margin: 0 auto 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.circulo { /* Cria os circulos e alinha eles dentro da caixa*/
+    width: 120px;
+    height: 120px;
+    background-color: #f11b0c; /* Cinza escuro */
+    border-radius: 100px;
+    margin: 6px;
+}
+
+.cor1 {
+    background-color: yellow;
+}
+
+.cor2{
+    background-color: #28f70c;
+}
