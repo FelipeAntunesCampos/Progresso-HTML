@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <link rel="stylesheet" href="/assets/styles/forms.css" />
+</head>
+<body>
+    <h1>Formulário Ninja</h1>
+    <section>
+    <form action="#">
+        <div class="inputs">
+            <label for="nome">Digite o nome do ninja!</label>
+            <input type="text" name="nome" placeholder="Ex: Zabuza Momochi" required/>
+        </div>
+        <div class="rank">
+            <label for="rank">Escolha o rank do ninja:</label>
+            <select name="rank" id="rank">
+                <option value="">Selecione Aqui!</option>
+                <option value="genin">Genin</option>
+                <option value="chunin">Chūnin</option>
+                <option value="jounin">Jōnin</option>
+                <option value="kage">Kage</option>
+            </select>
+         </div>
+         <div class="nivel">
+            <label for="nivel">Selicione o nivel da missão</label>
+             <div>
+            <label for="d">
+                <input type="radio" name="nivel" value="d">
+                D
+            </label>
+            <label for="c">
+                <input type="radio" name="nivel" value="c">
+                C
+            </label>
+            <label for="b">
+                <input type="radio" name="nivel" value="b">
+                B
+            </label>
+            <label for="a">
+                <input type="radio" name="nivel" value="a">
+                A
+            </label>    
+            <label for="s">
+                <input type="radio" name="nivel" value="s">
+                S
+            </label>    
+        </div>
+         </div>
+        <div class="especialidades">
+            <label for="especialidades">Qual as especialidades ninjas?</label>
+            <div>
+                <label for="especialidades">
+                    <input type="checkbox" name="especialidades" value="taijutsu">
+                👊 Taijutsu
+                </label>
+            </div>
+            <div>
+                <label for="especialidades">
+                    <input type="checkbox" name="especialidades" value="ninjustu">
+                🔥 Ninjutsu
+                </label>
+            </div>
+            <div>
+                <label for="especialidades">
+                    <input type="checkbox" name="especialidades" value="genjustu">
+                🧠 Genjustu
+                </label>
+            </div>
+            <div>
+                <label for="especialidades">
+                    <input type="checkbox" name="especialidades" value="medico">
+                🥼 Ninja médico
+                </label>
+            </div>
+        </div>
+        <div class="descricao">
+            <label for="descricao">Qual a descrição do ninja?</label>
+            <div>
+            <textarea name="descricao" id="descricao" placeholder="Digite as características e a historia do ninja!" rows="4" cols="65px"></textarea>
+            </div>
+        </div>
+    </form>
+    </section>
+</body>
+</html>
